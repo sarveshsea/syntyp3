@@ -1,4 +1,4 @@
-# SynTyp3 🚀
+# SynTyp3 ⌨️
 
 A modern, sleek typing practice application built with React, TypeScript, and Vite. Improve your typing speed and accuracy with real-time feedback, beautiful visualizations, and coding challenges.
 
@@ -7,19 +7,19 @@ A modern, sleek typing practice application built with React, TypeScript, and Vi
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
 
-## ✨ Features
+## Features
 
-- 🎯 Real-time typing speed and accuracy tracking
-- 💻 Code snippet challenges from LeetCode-style problems
-- 📊 Performance visualization with Chart.js
-- 🎨 Beautiful, responsive UI with Chakra UI
-- ⚡️ Lightning-fast development with Vite
-- 🔍 Type-safe code with TypeScript
-- 🎮 Interactive and engaging typing experience
-- 📈 Progress tracking and performance analytics
-- 🌈 Beautiful animations with Framer Motion
+- Real-time typing speed and accuracy tracking
+- Code snippet challenges from LeetCode-style problems
+- Performance visualization with Chart.js
+- Beautiful, responsive UI with Chakra UI
+- Lightning-fast development with Vite
+- Type-safe code with TypeScript
+- Interactive and engaging typing experience
+- Progress tracking and performance analytics
+- Beautiful animations with Framer Motion
 
-## 🚀 Quick Start
+##Quick Start
 
 ### Prerequisites
 
@@ -79,14 +79,14 @@ syntyp3/
 └── package.json       # Project dependencies
 ```
 
-## 🔧 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run lint` - Run ESLint
 - `npm run preview` - Preview production build
 
-## 🎯 Core Features
+## Core Features
 
 ### Typing Practice
 - Real-time WPM (Words Per Minute) calculation
@@ -115,7 +115,7 @@ syntyp3/
 - Smooth animations
 - Interactive elements
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues and submit pull requests.
 
@@ -131,11 +131,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Vite](https://vitejs.dev/) for the amazing build tool
-- [Chakra UI](https://chakra-ui.com/) for the beautiful components
+- [Vite](https://vitejs.dev/) for the build tool
+- [Chakra UI](https://chakra-ui.com/) for the components
 - [Chart.js](https://www.chartjs.org/) for the performance visualizations
-- [Framer Motion](https://www.framer.com/motion/) for the smooth animations
+- [Framer Motion](https://www.framer.com/motion/) for the animations
 
 ---
 
-Made with ❤️ by [Sarvesh](https://github.com/sarveshsea)
+Made by [Sarvesh](https://github.com/sarveshsea)
