@@ -1,6 +1,6 @@
-# TyperMaker20000 🚀
+# SynTyp3 🚀
 
-A modern, sleek typing practice application built with React, TypeScript, and Vite. Improve your typing speed and accuracy with real-time feedback and beautiful visualizations.
+A modern, sleek typing practice application built with React, TypeScript, and Vite. Improve your typing speed and accuracy with real-time feedback, beautiful visualizations, and coding challenges.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -10,11 +10,14 @@ A modern, sleek typing practice application built with React, TypeScript, and Vi
 ## ✨ Features
 
 - 🎯 Real-time typing speed and accuracy tracking
+- 💻 Code snippet challenges from LeetCode-style problems
 - 📊 Performance visualization with Chart.js
 - 🎨 Beautiful, responsive UI with Chakra UI
 - ⚡️ Lightning-fast development with Vite
 - 🔍 Type-safe code with TypeScript
 - 🎮 Interactive and engaging typing experience
+- 📈 Progress tracking and performance analytics
+- 🌈 Beautiful animations with Framer Motion
 
 ## 🚀 Quick Start
 
@@ -27,8 +30,8 @@ A modern, sleek typing practice application built with React, TypeScript, and Vi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sarveshsea/typermaker20000.git
-cd typermaker20000
+git clone https://github.com/sarveshsea/syntyp3.git
+cd syntyp3
 ```
 
 2. Install dependencies:
@@ -56,25 +59,61 @@ yarn dev
 - **Charts:** Chart.js & react-chartjs-2
 - **Animations:** Framer Motion
 - **Icons:** React Icons
+- **State Management:** React Hooks
+- **Code Quality:** ESLint
+- **Performance Monitoring:** Custom analytics
 
 ## 📦 Project Structure
 
 ```
-typermaker20000/
-├── src/               # Source files
-├── public/           # Static files
-├── backgrounds/      # Background assets
-├── index.html        # Entry HTML file
-├── vite.config.ts    # Vite configuration
-└── package.json      # Project dependencies
+syntyp3/
+├── src/                # Source files
+│   ├── components/     # React components
+│   ├── assets/        # Static assets
+│   ├── App.tsx        # Main App component
+│   └── main.tsx       # Entry point
+├── public/            # Public static files
+│   └── backgrounds/   # Background images
+├── index.html         # HTML template
+├── vite.config.ts     # Vite configuration
+└── package.json       # Project dependencies
 ```
 
-## 🔧 Scripts
+## 🔧 Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run lint` - Run ESLint
 - `npm run preview` - Preview production build
+
+## 🎯 Core Features
+
+### Typing Practice
+- Real-time WPM (Words Per Minute) calculation
+- Accuracy tracking
+- Error highlighting
+- Progress visualization
+- Performance history
+
+### Code Challenges
+- Various difficulty levels (Easy, Medium, Hard)
+- Multiple programming languages
+- Algorithm explanations
+- Time & space complexity information
+
+### Performance Analytics
+- WPM tracking over time
+- Accuracy trends
+- Personal bests
+- Streak tracking
+- Detailed statistics
+
+### User Interface
+- Modern, clean design
+- Dark mode
+- Responsive layout
+- Smooth animations
+- Interactive elements
 
 ## 🤝 Contributing
 
@@ -95,6 +134,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Vite](https://vitejs.dev/) for the amazing build tool
 - [Chakra UI](https://chakra-ui.com/) for the beautiful components
 - [Chart.js](https://www.chartjs.org/) for the performance visualizations
+- [Framer Motion](https://www.framer.com/motion/) for the smooth animations
 
 ---
 
