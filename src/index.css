@@ -1,0 +1,188 @@
+:root {
+  --bg-color: #0a0f1a;
+  --main-color: #2196f3;
+  --caret-color: #9c27b0;
+  --sub-color: #646669;
+  --sub-alt-color: #2c2e31;
+  --text-color: #d1d0c5;
+  --error-color: #ff6b6b;
+  --error-extra-color: #7e2a33;
+  --roundness: 0.5rem;
+  --font: "JetBrains Mono", "Fira Code", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  line-height: 1.25;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sub-color);
+  transition: 0.125s;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--sub-color);
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--sub-color) transparent;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
+
+/* CRT Effect */
+.crt-effect {
+  position: relative;
+}
+
+.crt-effect::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.05) 50%);
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.crt-effect::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    transparent 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Glowing Text */
+.glow-text {
+  text-shadow: 0 0 10px var(--main-color);
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px var(--main-color), 0 0 10px var(--main-color),
+      0 0 15px var(--main-color);
+  }
+  to {
+    text-shadow: 0 0 10px var(--main-color), 0 0 20px var(--main-color),
+      0 0 30px var(--main-color);
+  }
+}
+
+/* Grid Background */
+.grid-bg {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+  animation: gridMove 20s linear infinite;
+}
+
+@keyframes gridMove {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20px 20px;
+  }
+}
+
+.matrix-rain {
+  background: transparent;
+  overflow: hidden;
+}
+
+.matrix-rain::after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(167, 230, 215, 0.03) 50%,
+    transparent 100%
+  );
+  background-size: 100% 200%;
+  animation: matrix-rain 20s linear infinite;
+}
+
+@keyframes matrix-rain {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 200%;
+  }
+}
+
+/* Add shimmer effect for text */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(167, 230, 215, 0.1),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
